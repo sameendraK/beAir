@@ -1,0 +1,29 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "airtribe task 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airtribe-projects/task-manager-api-sameendraK.git"
+  },
+  "author": "sameendrak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airtribe-projects/task-manager-api-sameendraK/issues"
+  },
+  "homepage": "https://github.com/airtribe-projects/task-manager-api-sameendraK#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
